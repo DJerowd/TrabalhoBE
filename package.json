@@ -1,0 +1,23 @@
+{
+  "name": "trabalhowbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "node": "^20.2.0",
+    "nodemon": "^2.0.22",
+    "postgres": "^3.3.4"
+  },
+  "devDependencies": {
+    "prisma": "^4.14.1"
+  }
+}
